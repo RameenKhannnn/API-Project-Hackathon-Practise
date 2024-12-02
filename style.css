@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .products-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .product {
+        padding: 15px;
+    }
+
+    .product h2 {
+        font-size: 16px;
+    }
+
+    .product p {
+        font-size: 14px;
+    }
+}
